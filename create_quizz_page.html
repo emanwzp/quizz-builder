@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Create A Quizz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script language="javascript" src="apis_reference.js"></script>
+  <script language="javascript" src="create_quizz.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Quizz Builder - Create a Quizz</h1>
+    </header>
+
+
+
+      <div class = "row" id="nav-panel">
+        <button class="btn btn-primary" onclick="location.href='homepage.html'">Back to Main Menu</button>
+
+      </div>
+
+    <div class="row justify-content-md-center" >
+      <div class="col col-lg-3">
+      </div>
+      <div class="col col-lg-6" id="builder">
+        <label for="title-field">Give your quizz a title</label>
+      		<input type="text" class="form-control" id="title-field" placeholder="Some Title">
+          <button class="btn btn-outline-secondary" type="button" onclick="loadBuilder()">Confirm Title</button>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+</body>
+</html>

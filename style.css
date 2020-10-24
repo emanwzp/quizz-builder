@@ -1,0 +1,96 @@
+button{
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+iframe{
+  display:none;
+}
+
+
+input{
+  margin: 1rem;
+}
+
+
+ul[title]::before {
+    content: attr(title);
+    /* then add some nice styling as needed, eg: */
+    display: block;
+    font-weight: bold;
+    padding: 4px;
+    margin-top: 3rem;
+}
+
+.container{
+  text-align: center;
+}
+
+#nav-panel{
+  margin-bottom: 3rem;
+}
+
+
+.radio-toolbar input[type="radio"] {
+  display: none;
+}
+
+.radio-toolbar label {
+  background-color: #ddd;
+  min-height: 6rem;
+  font-family: Arial;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-width: thin;
+  border-color: #0275d8;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #bbb;
+}
+
+
+#quizz-order-container{
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+#quizz-container{
+  margin-top: 2rem;
+}
+
+.add-question{
+  margin-bottom: 5rem;
+}
+
+.correct{
+  background-color: rgb(70, 180, 39, 0.5);
+}
+.wrong{
+  background-color: rgb(255, 0, 0, 0.5);
+}
+
+/* .question{
+  margin-top: 4rem;
+} */
+
+.question-row{
+  padding: 2rem;
+  margin-bottom:2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit-container{
+  margin-bottom: 5rem;
+}
+
+#result-msg{
+  margin: 4rem;
+  font-weight: bold;
+  color: Indigo;
+}
